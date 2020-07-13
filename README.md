@@ -1,17 +1,17 @@
 ---
 page_type: sample
 languages:
-- php
+- php, js, css
 products:
-- azure
-description: "This sample demonstrates a tiny Hello World PHP app for App Service."
-urlFragment: php-docs-hello-world
+- web page
+description: "This software pretends to help medical area with automated CRUD."
 ---
 
-# PHP Hello World
+# Seguimiento para pacientes
 
-This sample demonstrates a tiny Hello World PHP app for [App Service](https://docs.microsoft.com/azure/app-service).
+This software pretends to help medical area with automated CRUD.
+
 
 ## Contributing
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+This software was made by GHAMASWARE
