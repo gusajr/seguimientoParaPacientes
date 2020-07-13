@@ -1,0 +1,48 @@
+<!--
+    Nombre: login.html
+    Objetivo/propósito: pantalla de ingreso al sistema. 
+    Creado por: GHAMASWARE
+                -Ing. Casillas Toledo Mauricio Enrique
+                -Ing. Gómez Segovia Álvaro
+                -Ing. Jiménez Ruiz Gustavo Alfredo
+                -Ing. Ramírez Martínez Humberto
+    Fecha: 28/diciembre/2019
+    Versión: 1.0
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Seguimiento de pacientes</title>
+    <link rel="stylesheet" href="../public/css/inicio.css">
+</head>
+
+<body class="modal-open">
+    <div class="box">
+        <form method="post" id="frmAcceso">
+            <h1>Seguimiento de pacientes</h1>
+            <input type="text" name="nombre_usuario_acceso" id="nombre_usuario_acceso" placeholder="Usuario" class="email">
+            <input type="password" name="password_acceso" id="password_acceso" placeholder="Contraseña" class="email">
+            <div><button class="btn" id="btn" type="submit">Entrar</button></div>
+        </form>
+        <form method="post" id="frmAcceso1">
+            <input type="hidden" value="invitado" name="nombre_usuario_acceso1" id="nombre_usuario_acceso1">
+            <input type="hidden" value="invitado" name="password_acceso1" id="password_acceso1">
+            <div><button class="btn" id="btn2" type="submit">Invitado</button></div><br>
+        </form>
+    </div>
+    <br>
+    <div class="box2">
+        <img src="../files/logo.jpg" width="80%" height="80%">
+        <h1><b>Sanatorio de oriente<br>Especialistas médico quirúrgicos</h1>
+			<h2><br>Dirección: <br>Av. Sur 24 No.121 <br>Col Agricola Oriental, <br>México, D.F. Deleg.<br> Iztacalco, C.P. 08500, <br>TEL:55-58-20-84</h2>
+		</div>
+		<script src="../public/js/jquery-3.1.1.min.js"></script>
+    	<script src="../public/js/bootstrap.min.js"></script>
+    	<script type="text/javascript" src="scripts/login.js"></script>
+	</body>
+</html>
